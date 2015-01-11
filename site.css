@@ -12,6 +12,13 @@ h1 {
 	color:#54A759;
 }
 
+h2 {
+    width:100%;
+	margin:0;
+	width:100%;
+	color:#54A759;
+}
+
 p {
 	width:100%;
 }
@@ -36,6 +43,18 @@ li {
 	padding-left:30px;
 }
 
+table {
+    font-family: "Courier New", Courier, monospace;
+	border-spacing: 30px;
+}
+
+td {
+	vertical-align: top;
+}
+
+.shipping {
+    margin-bottom:0;
+}
 
 @media(min-width:768px) {
 	body {
