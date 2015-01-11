@@ -52,6 +52,14 @@ td {
 	vertical-align: top;
 }
 
+.title-link, .title-link:visited {
+	color:#54A759;
+}
+
+.title-link:hover {
+    color:#4F628F;
+}
+
 .container {
     margin: 0 auto;
     padding: 0 15px;
