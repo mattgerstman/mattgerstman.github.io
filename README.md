@@ -1,4 +1,4 @@
 mattgerstman.github.io
 ======================
 
-Personal Site for Matt Gerstman
+Personal Site for Matthew Gerstman
