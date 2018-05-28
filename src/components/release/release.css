@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.thumb {
+  margin-right: 10px;
+}
+
+.datapoints {
+}
+
+.datapoint {
+  display: block;
+}
+
+.datapoint_name {
+  font-weight: bold;
+}
+
+@media (max-width: 640px) {
+  .thumb {
+    height: 50px;
+  }
+}
+
+@media (min-width: 640px) {
+  .thumb {
+    height: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .thumb {
+    height: 200px;
+  }
+}
