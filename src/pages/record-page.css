@@ -1,9 +1,5 @@
 .container {
-  box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 20px;
   display: grid;
-  width: 100vw;
   grid-gap: 10px;
   grid-auto-rows: minmin(100px, auto);
 }
