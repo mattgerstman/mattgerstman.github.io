@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import * as _ from 'lodash';
 import * as fp from 'lodash/fp';
 
 const getRecords = fp.get('records');
