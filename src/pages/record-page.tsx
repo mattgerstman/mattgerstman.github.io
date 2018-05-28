@@ -13,13 +13,8 @@ class RecordPage extends React.Component<any, any> {
     const {releases} = this.props;
     return (
       <div className={styles.container}>
-        {releases.map(({basic_information}) => (
-          <Release
-            key={basic_information.title}
-            {...basic_information}
-            artist={basic_information.artists_sort}
-            thumb={basic_information.huge_thumb}
-          />
+        {releases.map(release => (
+          <Release key={release.releaseId} {...release} />
         ))}
       </div>
     );
