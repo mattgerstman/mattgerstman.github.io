@@ -11,7 +11,7 @@ function App() {
     <Provider store={getStore()}>
       <Router>
         <div className={styles.container}>
-          <Route path="/" component={LandingPage} />
+          <Route exact={true} path="/" component={LandingPage} />
           <Route path="/records" component={RecordPage} />
         </div>
       </Router>

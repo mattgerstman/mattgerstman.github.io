@@ -36,17 +36,14 @@ export function LandingPage() {
             </a>{" "}
             It makes me happy.
           </p>
-          <p>
-            I gave a talk once on functional programming:
-            <YouTube
-              className={styles.youtube}
-              options={{
-                height: "390",
-                width: "640"
-              }}
-              videoId="kkRyjXDpYqg"
-            />
-          </p>
+          <p>I gave a talk once on functional programming:</p>
+          <YouTube
+            options={{
+              height: "390",
+              width: "640"
+            }}
+            videoId="kkRyjXDpYqg"
+          />
         </div>
       </div>
     </div>
