@@ -1,8 +1,8 @@
 import * as React from "react";
+import { Link } from "react-router-dom";
+import YouTube from "react-youtube";
 import profilePic from "../assets/picture.jpg";
 import * as styles from "./landing-page.css";
-import YouTube from "react-youtube";
-import { Link } from "react-router-dom";
 
 export function LandingPage() {
   return (
