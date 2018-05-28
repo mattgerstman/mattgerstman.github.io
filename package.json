@@ -4,6 +4,9 @@
   "private": true,
   "homepage": "http://matthewgerstman.github.io/",
   "dependencies": {
+    "@types/classnames": "^2.2.3",
+    "@types/react-redux": "^6.0.0",
+    "@types/redux": "^3.6.0",
     "autoprefixer": "7.1.6",
     "babel-jest": "^22.1.0",
     "babel-loader": "^7.1.2",

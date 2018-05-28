@@ -5,7 +5,7 @@ import {getRecords} from '../data/records/actions';
 import {getReleases} from '../data/records/selectors';
 import * as styles from './record-page.css';
 
-class RecordPage extends React.Component {
+class RecordPage extends React.Component<any, any> {
   componentDidMount() {
     this.props.getRecords();
   }
