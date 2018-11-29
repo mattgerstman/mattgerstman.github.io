@@ -17,13 +17,7 @@ export function LandingPage() {
             Silicon Valley. I'm mostly from Florida.
           </p>
           <p>
-            I've been described as a{" "}
-            <a
-              href="https://www.songkick.com/users/matt-gerstman"
-              target="_blank"
-            >
-              concert-goer,
-            </a>{" "}
+            I've been described as a Green Day fan,{" "}        
             <Link to="records">vinyl collector,</Link>{" "}
             <a href="http://imgur.com/a/Gi6Pn" target="_blank">
               Harry Potter
@@ -32,17 +26,18 @@ export function LandingPage() {
           </p>
           <p>
             <a href="https://twitter.com/matthewgerstman" target="_blank">
-              Please follow me on Twitter.
+              Follow me on Twitter.
             </a>{" "}
             It makes me happy.
           </p>
+          <p>I plan on staying in Manhattan forever, please don't try and convince me to leave, it's not happening.</p>
           <p>I gave a talk once on functional programming:</p>
           <YouTube
             options={{
               height: "390",
               width: "640"
             }}
-            videoId="kkRyjXDpYqg"
+            videoId="Pjc1AnBLG8c"
           />
         </div>
       </div>
